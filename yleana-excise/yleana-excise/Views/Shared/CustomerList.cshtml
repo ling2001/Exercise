@@ -1,0 +1,32 @@
+﻿<input type="button" onclick="showlist('customerlistID')" id="btnGetCustomers" value="Get Customers" class="btn btn-primary btn-large" data-bind="    click: getCustomes" />  
+ 
+<a href="#" onclick="show('createCustomerID')" class="btn btn-primary btn-large">Add Customer</a>
+<br/>
+<div id="customerlistID">
+<table class="table">
+    <thead>
+        <tr>
+            <th>CustomerID</th>
+            <th>Customer Name</th>
+            <th>Contact Name</th>
+            <th>Address</th> 
+            <th>City</th>
+            <th>Postal Code</th>
+            <th>Country</th>
+        </tr>
+    </thead>
+    <tbody data-bind="foreach: customers" class="row">
+        <tr>
+            <td data-bind="text: CustomerID"></td>
+            <td data-bind="text: CustomerName"></td>
+            <td data-bind="text: ContactName"></td>
+            <td data-bind="text: Address"></td>
+            <td data-bind="text: City"></td>
+            <td data-bind="text: PostalCode"></td>
+            <td data-bind="text: Country"></td>
+        </tr>
+    </tbody>
+    </div>
+</table>
+</div>
+ 

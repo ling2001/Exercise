@@ -1,0 +1,86 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+ 
+.sidebar-nav {
+    padding: 9px 0;
+}
+ 
+@media (max-width: 980px) {
+    /* Enable use of floated navbar text */
+    .navbar-text.pull-right {
+        float: none;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.row div:nth-child(even){
+  background-color: #dcdcdc;
+}
+.row div:nth-child(odd){
+  background-color: #aaaaaa;
+}
+
+@media (min-width: 768px) {
+    .row div:nth-child(4n), .row div:nth-child(4n-1) {
+        background: #dcdcdc;
+    }
+    .row div:nth-child(4n-2), .row div:nth-child(4n-3) {
+        background: #aaaaaa;
+    }
+}
+
+@media (min-width: 992px) {
+    .row div:nth-child(6n), .row div:nth-child(6n-1), .row div:nth-child(6n-2) {
+        background: #dcdcdc;
+    }
+    .row div:nth-child(6n-3), .row div:nth-child(6n-4), .row div:nth-child(6n-5) {
+        background: #aaaaaa;
+    }
+}
+
+.row tr:nth-child(even){
+  background-color: #dcdcdc;
+}
+.row tr:nth-child(odd){
+  background-color: #aaaaaa;
+}
+
+@media (min-width: 768px) {
+    .row div:nth-child(4n), .row div:nth-child(4n-1) {
+        background: #dcdcdc;
+    }
+    .row div:nth-child(4n-2), .row div:nth-child(4n-3) {
+        background: #aaaaaa;
+    }
+}
+
+@media (min-width: 992px) {
+    .row div:nth-child(6n), .row div:nth-child(6n-1), .row div:nth-child(6n-2) {
+        background: #dcdcdc;
+    }
+    .row div:nth-child(6n-3), .row div:nth-child(6n-4), .row div:nth-child(6n-5) {
+        background: #aaaaaa;
+    }
+}

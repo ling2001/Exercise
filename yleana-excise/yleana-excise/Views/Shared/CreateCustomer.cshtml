@@ -1,0 +1,45 @@
+﻿<div class="span12" id="createCustomerID">
+    <fieldset>
+        <legend>Create Customers</legend>
+        <div class="control-group">
+            <label class="control-label">Customer Name: </label>
+            <div class="controls">
+                <input type="text" data-bind="value: CustomerName" placeholder="Customer Name" class="input-lg">
+            </div>
+        </div>
+        <div class="control-group">
+            <label class="control-label">Contact Name: </label>
+            <div class="controls">
+                <input type="text" data-bind="value: ContactName" placeholder="Contact Name" class="input-lg">
+            </div>
+        </div>
+        <div class="control-group">
+            <label class="control-label">Address: </label>
+            <div class="controls">
+                <input type="text" data-bind="value: Address" placeholder="Address" class="input-lg">
+            </div>
+        </div>
+        <div class="control-group">
+            <label class="control-label">City: </label>
+            <div class="controls">
+                <input type="text" data-bind="value: City" placeholder="City" class="input-lg">
+            </div>
+        </div>
+        <div class="control-group">
+            <label class="control-label">Postal Code: </label>
+            <div class="controls">
+                <input type="text" data-bind="value: PostalCode" placeholder="Postal Code" class="input-lg">
+            </div>
+        </div>
+        <div class="control-group">
+            <label class="control-label">Country: </label>
+            <div class="controls">
+                <input type="text" data-bind="value: Country" placeholder="Country" class="input-lg">
+            </div>
+        </div>
+        <br />
+        <div class="control-group">
+            <input type="button" id="btnAddCustomer" value="Save" data-bind="click: addCustomer" class="btn btn-primary btn-large" />
+        </div>
+    </fieldset>
+</div>
